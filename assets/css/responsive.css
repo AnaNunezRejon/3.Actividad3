@@ -1,0 +1,256 @@
+
+@media (max-width: 1900px){
+    .nav__item{
+        font-size: 1.5vw;
+    }
+    .nav__titleBtn{
+        font-size: 1.5vw;
+        margin: 0;
+    }
+    .caja__contenido{
+        width: 60%;
+    }
+    .img{
+        margin-right: 3rem;
+    }
+    .content__image{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .contenido__header{
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+    .contenido__subtitle{
+        font-weight: 700;
+        color: var(--color-rojo);
+    }
+    .contenido__title{
+        font-size: 2vw;
+        font-weight: 700;
+        line-height: 1.2;
+        color: var(--color-black);
+    }
+    .contenido__texto{
+        font-size: 1.5vw;
+    }
+    .contenedor__precio{
+        display: flex;
+        flex-direction: row;
+    }
+    .precio{
+        padding: 3rem 0rem;
+        font-size: 3vw;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .precio__button{
+        padding: 1rem 1rem;
+        margin: 3rem;
+        font-size: 1.5vw;
+        border: 0.2rem solid var(--color-azuloscuro);
+        color: var(--color-titles);
+        background-color: var(--color-azul);
+        border-radius: 1rem;
+        box-shadow: 0 1rem 1rem -8px rgba(0, 0, 0, 0.22);
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav__item{
+        font-size: 2vw;
+    }
+    .nav__titleBtn{
+        font-size: 2vw;
+        margin: 0;
+    }
+    .layout__menu {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .contenedor__general{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .precio__button{
+        font-size: large;
+    }
+    .accesories__list{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    .accesories__accesorie{
+        min-width: 100%;
+        max-width: 100%;
+        font-size: small;
+        margin-top: 2rem;
+        margin-right: 2%;
+        padding-top: 2%;
+        background-color: #ffffff;
+        border: 0.2rem solid var(--color-grisclaro);
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+    .accesorie__image{
+        max-width: 100%;
+        width: 100%;
+        padding: 2rem 2rem;
+    }
+    .texto__description{
+        text-align: left;
+    }
+    .sorteo__title {
+        font-size: 3vw;
+    }
+
+}
+@media (max-width: 1060px){
+
+    .contenedor__general{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .precio__button{
+        font-size: large;
+    }
+
+}
+
+@media (max-width: 758px){
+    .layout__menu {
+        padding-left: 2%;
+    }
+    .abrir__menu,
+    .cerrar__menu {
+        display: block;
+        border: 0;
+        font-size: 6rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir__menu {
+        color: #1c1c1c;
+    }
+    .cerrar__menu {
+        color: #000000;
+    }
+    .navbar__nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #75dacd;
+        padding: 6rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+    .navbar__nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav__list{
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav__item{
+        padding-top: 2rem;
+    }
+    .nav__title{
+        font-size: xx-large;
+    }
+    .nav__titleBtn{
+        margin-top: 2rem;
+        font-size: xx-large;
+    }
+
+
+    .layout__content{
+        display: block;
+    }
+    .img{
+        margin-right: 0;
+    }
+    .caja__contenido{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .contenido__title{
+        font-size: 4rem;
+    }
+    .contenido__texto {
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .precio{
+        font-size: 4rem;
+    }
+    .image__iphone{
+        height: 700px;
+    }
+    .precio__button{
+        font-size: large;
+        margin: 3rem;
+    }
+    .service__text {
+        font-size: large;
+        padding-right: 1rem;
+    }
+    .services__list{
+        padding-bottom: 2rem;
+    }
+    .layout__accesories{
+        padding-top: 2rem;
+    }
+    .accesories__header{
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .accesorie__title{
+        font-size: 5vw;
+    }
+    .accesories__list{
+        display: block;
+    }
+    .sorteo__grid {
+        padding-top: 4rem;
+        width: 90%;
+    }
+    .layout__sorteo{
+        display: block;
+    }
+    .sorteo__title {
+        font-size: 6vw;
+    }
+    
+}
+@media (max-width: 500px){
+    .nav__item{
+        font-size: 2vw;
+    }
+    .nav__titleBtn{
+        font-size: 2vw;
+        margin: 0;
+    }
+    .layout__content{
+        display: block;
+    }
+    .accesories__list{
+        display: block;
+    }
+}
